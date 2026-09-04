@@ -8,4 +8,4 @@ platforms = ["windows"]
 id = "install"
 title = "安装 Windows Terminal 配置"
 contexts = ["workspace"]
-command = ["powershell", "-File", "scripts/install.ps1"]
+command = ["powershell", "-File", "scripts/install.ps1", "-NoElevate"]
