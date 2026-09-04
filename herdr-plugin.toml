@@ -1,0 +1,11 @@
+id = "yuloop.win-terminal"
+name = "Win Terminal Profile"
+version = "0.1.0"
+min_herdr_version = "0.7.0"
+description = "一键安装 Windows Terminal herdr 配置"
+platforms = ["windows"]
+[[actions]]
+id = "install"
+title = "安装 Windows Terminal 配置"
+contexts = ["workspace"]
+command = ["powershell", "-File", "scripts/install.ps1"]
